@@ -1,4 +1,4 @@
-const myClass = require('../../src/index.js')
+const myClass = require('../src/index.js')
 
 test("add 5 + 5 to be equal 10", () => {
     expect(myClass.sum(5, 5)).toBe(10);
